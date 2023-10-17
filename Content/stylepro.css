@@ -1,0 +1,30 @@
+﻿#div-pro-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.box{
+    height:350px;
+    width:300px;
+}
+.size-img{
+    height:200px;
+    width:280px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.chitiet{
+    height:120px;
+    width:auto;
+    background-color: dimgray;
+    margin-left:20px;
+    margin-top:10px;
+}
+.des{
+    margin-left:10px;
+    padding-top:5px;
+}
+.box{
+    margin:auto;
+    margin-top:10px;
+}

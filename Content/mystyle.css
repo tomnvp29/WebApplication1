@@ -1,0 +1,41 @@
+﻿body {
+    margin:0;
+}
+#Top{
+    background-color:aquamarine;
+    height:50px;
+    width:100%;
+    text-align:center;
+}
+#Main{
+    display:flex;
+    flex-direction: row;
+    background-color:aliceblue;
+    width:auto;
+    margin-bottom:20px;
+}
+#Left{
+    width:auto;
+    height:auto;
+    font-family:'Times New Roman';
+    font-size:small;
+}
+#Left h3{
+    text-align:center;
+}
+#Containt{
+    width:auto; 
+    height:auto;
+    background-color:antiquewhite;
+}
+#Foot {
+    height: 50px;
+    width: 100%;
+    background-color: burlywood;
+    bottom: 0px;
+}
+#Foot p{
+    text-align:center;
+    left:50%;
+    padding-top:15px;
+}

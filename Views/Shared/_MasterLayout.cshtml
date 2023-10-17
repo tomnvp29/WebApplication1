@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body style="margin:0;">
+    <div style="background-color:aqua; width:100%; height:50px; clear:both">Menu</div>
+    <div style="background-color:antiquewhite;width:30%;height:650px;float:left">
+        <p>Left</p>
+    </div>
+    <div style="background-color:aquamarine;width:70%;height:650px;float:right">
+        <p>Right</p>
+        @RenderBody()
+    </div>
+    <div style="background-color:orangered; height:40px; width:100%;clear:both">
+        <p>Footer</p>
+    </div>
+</body>
+</html>

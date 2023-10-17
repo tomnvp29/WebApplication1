@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Dangky";
+    Layout = "~/Views/Shared/_MasterLayout3.cshtml";
+}
+@*<link href="~/Content/bootstrap.css" rel="stylesheet" />*@
+<link href="~/Content/Styleform.css" rel="stylesheet" />
+<div id="div-form">
+    <h2 style="text-align:center;">ĐĂNG KÝ TÀI KHOẢN</h2>
+    <form action="#" method="post">
+        <div id="div-thongtin">
+            <fieldset>
+                <legend>Thông tin cá nhân:</legend>
+                <label>Họ tên: </label>
+                <input type="text" name="txthoten" value="" placeholder="Nhập họ tên..." />
+                <br />
+                <label>Mật khẩu: </label>
+                <input type="password" name="txtmk" value="" />
+                <br />
+                <label>Địa chỉ: </label>
+                <select name="sltDC">
+                    <option value="">--Chọn địa chỉ--</option>
+                    <option>HCM</option>
+                    <option>BRVT</option>
+                    <option>Hà Nội</option>
+                    <option>Quảng Ninh</option>
+                </select>
+                <br />
+                <label>Email: </label>
+                <input type="Email" name="email" value="" />
+                <br />
+                <label>Cân nặng: </label>
+                <input type="number" name="cannang" value="" />
+                <br />
+                <fieldset>
+                    <legend>Sở thích</legend>
+                    <input type="checkbox" name="sothich" value="db" />Đá banh
+                    <input type="checkbox" name="sothich" value="cl" />Cầu lông
+                    <input type="checkbox" name="sothich" value="ds" />Đọc sách
+                    <input type="checkbox" name="sothich" value="xp" />Xem phim 
+                </fieldset>
+                <fieldset>
+                     <legend>Giới tính</legend>
+                     <input type="radio" name="gioitinh" value="nam" />Nam
+                     <input type="radio" name="gioitinh" value="nu" />Nữ
+                     <input type="radio" name="gioitinh" value="khac" />Khác
+                </fieldset>
+                <input type="file"/>
+            </fieldset>
+        </div>
+        <div id="div-btn">
+            <input type="button" name="btngui" value="Gửi" />
+            <input type="button" name="btnreset" value="Reset" />
+        </div>
+    </form>
+</div>
